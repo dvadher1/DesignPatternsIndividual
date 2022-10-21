@@ -1,8 +1,17 @@
 import java.util.ArrayList;
 
-public class OfferingList extends ArrayList<OfferingList> {
-	private OfferingIterator offeringIterator;
-	private Trading trading;
-	private OfferingList offeringList;
-	private Offering[] offering;
+public class OfferingList extends ArrayList<Offering> {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public OfferingList() {
+		
+	}
+	
+	public void initOfferingList() {
+		
+	}
 }
